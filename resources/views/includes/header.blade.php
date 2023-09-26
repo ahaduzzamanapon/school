@@ -215,10 +215,7 @@
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-995">
                                         <a href="https://school2.avientech.com/facilities/">Facilities</a>
                                     </li>
-                                    <li id="menu-item-1171"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1171">
-                                        <a href="https://school2.avientech.com/download/">Download</a>
-                                    </li>
+                                  
                                 </ul>
                             </li>
                             <li id="menu-item-1002"
@@ -246,27 +243,18 @@
                                     href="https://school2.avientech.com/contact/">Contact</a></li>
                             <li id="menu-item-781"
                                 class="pll-parent-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-781">
-                                <a href="https://school2.avientech.com/#pll_switcher"><img
-                                        src="https://school2.avientech.com/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAmVBMVEViZsViZMJiYrf9gnL8eWrlYkjgYkjZYkj8/PujwPybvPz4+PetraBEgfo+fvo3efkydfkqcvj8Y2T8UlL8Q0P8MzP9k4Hz8/Lu7u4DdPj9/VrKysI9fPoDc/EAZ7z7IiLHYkjp6ekCcOTk5OIASbfY/v21takAJrT5Dg6sYkjc3Nn94t2RkYD+y8KeYkjs/v7l5fz0dF22YkjWvcOLAAAAgElEQVR4AR2KNULFQBgGZ5J13KGGKvc/Cw1uPe62eb9+Jr1EUBFHSgxxjP2Eca6AfUSfVlUfBvm1Ui1bqafctqMndNkXpb01h5TLx4b6TIXgwOCHfjv+/Pz+5vPRw7txGWT2h6yO0/GaYltIp5PT1dEpLNPL/SdWjYjAAZtvRPgHJX4Xio+DSrkAAAAASUVORK5CYII="
-                                        alt="English" width="16" height="11" style="width: 16px; height: 11px;" /><span
+                                <a href="https://school2.avientech.com/#pll_switcher"><span
                                         style="margin-left:0.3em;">English</span></a>
                                 <ul class="sub-menu">
                                     <li id="menu-item-781-en"
                                         class="lang-item lang-item-78 lang-item-en current-lang lang-item-first menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-781-en">
-                                        <a href="https://school2.avientech.com/" hreflang="en-US" lang="en-US"><img
-                                                src="https://school2.avientech.com/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAmVBMVEViZsViZMJiYrf9gnL8eWrlYkjgYkjZYkj8/PujwPybvPz4+PetraBEgfo+fvo3efkydfkqcvj8Y2T8UlL8Q0P8MzP9k4Hz8/Lu7u4DdPj9/VrKysI9fPoDc/EAZ7z7IiLHYkjp6ekCcOTk5OIASbfY/v21takAJrT5Dg6sYkjc3Nn94t2RkYD+y8KeYkjs/v7l5fz0dF22YkjWvcOLAAAAgElEQVR4AR2KNULFQBgGZ5J13KGGKvc/Cw1uPe62eb9+Jr1EUBFHSgxxjP2Eca6AfUSfVlUfBvm1Ui1bqafctqMndNkXpb01h5TLx4b6TIXgwOCHfjv+/Pz+5vPRw7txGWT2h6yO0/GaYltIp5PT1dEpLNPL/SdWjYjAAZtvRPgHJX4Xio+DSrkAAAAASUVORK5CYII="
-                                                alt="English" width="16" height="11"
-                                                style="width: 16px; height: 11px;" /><span
+                                        <a href="https://school2.avientech.com/" hreflang="en-US" lang="en-US"><span
                                                 style="margin-left:0.3em;">English</span></a>
                                     </li>
                                     <li id="menu-item-781-bn"
                                         class="lang-item lang-item-108 lang-item-bn menu-item menu-item-type-custom menu-item-object-custom menu-item-781-bn">
                                         <a href="https://school2.avientech.com/bn/%e0%a6%b9%e0%a7%8b%e0%a6%ae/"
-                                            hreflang="bn-BD" lang="bn-BD"><img
-                                                src="https://school2.avientech.com/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAXVBMVEUAPwAANgAALAAAHgAADgAAAAB5sHlxq3JopWhdn11Wm1ZPlk+Uf1LgW0/6S0r7QEDcTT+BZzQ3hjctfy0jeyNDjkP4NzbLXEj4Li69OB8VchX0ICANag1qThLTMCDLeAoGAAAAWUlEQVR4AQXBAWrCQBRAwXl/l6TV+99UECKpnQkkieRAIuXaLE1VVddGM3L4DCb1lHPmx3HbyjvnWA5MPH6dY/kz2Xq4zrHYX0zcfY5lzRe2XuXNLdImAPgHO0kOmeUlLKgAAAAASUVORK5CYII="
-                                                alt="বাংলা" width="16" height="11"
-                                                style="width: 16px; height: 11px;" /><span
-                                                style="margin-left:0.3em;">বাংলা</span></a>
+                                            hreflang="bn-BD" lang="bn-BD"><span style="margin-left:0.3em;">বাংলা</span></a>
                                     </li>
                                 </ul>
                             </li>

@@ -89,7 +89,7 @@
                     <div class="row">
                         <div class="col-lg-12 text-center">
                             <span> Developed and maintained by
-                                <a href="https://avientech.com/" target="_blank"> AvienTech</a>
+                                <a href="#" target="_blank"> Apon</a>
                             </span>
                         </div>
                     </div>
