@@ -45,10 +45,10 @@
                         <div class="logo-header mostion">
                             <a href="#">
                                <img id="logoImage"
-                                   src="{{url('logo.png')}}"
+                                   src="{{url('public/logo.png')}}"
                                    class="logo" alt="AOGERy" style="display: none; width: 90px; height: 90px;">
                                <img id="logoTransparentImage"
-                                   src="{{url('logo.png')}}"
+                                   src="{{url('public/logo.png')}}"
                                    class="logo" alt="AOGERy" style="width: 90px; height: 90px;">
                                
                             </a>
@@ -63,7 +63,7 @@
                     <div class="col-lg-3 col-md-3 col-6 order-lg-3 order-md-3 order-2">
                         <div class="logo-header mostion logo-right">
                             <a href="#">
-                                <img  src="{{url('mujib.png')}}"
+                                <img  src="{{url('public/mujib.png')}}"
                                     class="logo" alt="Logo Image">
                             </a>
                         </div>

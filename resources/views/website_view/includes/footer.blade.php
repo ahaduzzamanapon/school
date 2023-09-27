@@ -95,23 +95,23 @@
         </div>
 </div>
 </div>
-<script type="text/javascript" src="{{ url('asset/wp-content/themes/School/assets/plugins/bootstrap/js/popper.min.js')}}" id="popper-js-js"></script>
-<script type="text/javascript" src="{{ url('asset/aos@2.3.1/dist/aos.js')}}" id="aos-js-js"></script>
-<script type="text/javascript" src="{{ url('asset/wp-content/themes/School/assets/plugins/bootstrap/js/bootstrap.min.js')}}" id="bootstrap-js-js"></script>
-<script type="text/javascript" src="{{ url('asset/wp-content/themes/School/assets/plugins/bootstrap-select/bootstrap-select.min.js')}}" id="bootstrap-select-js-js"></script>
-<script type="text/javascript" src="{{ url('asset/wp-content/themes/School/assets/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js')}}" id="bootstrap-touchspin-js-js"></script>
-<script type="text/javascript" src="{{ url('asset/wp-content/themes/School/assets/plugins/magnific-popup/magnific-popup.js')}}" id="magnific-popup-js-js"></script>
-<script type="text/javascript" src="{{ url('asset/wp-content/themes/School/assets/plugins/counter/waypoints-min.js')}}" id="waypoints-js-js"></script>
-<script type="text/javascript" src="{{ url('asset/wp-content/themes/School/assets/plugins/counter/counterup.min.js')}}" id="counterup-js-js"></script>
-<script type="text/javascript" src="{{ url('asset/wp-content/themes/School/assets/plugins/imagesloaded/imagesloaded.js')}}" id="imagesloaded-js-js"></script>
-<script type="text/javascript" src="{{ url('asset/wp-content/themes/School/assets/plugins/masonry/masonry-3.1.4.js')}}" id="masonry-js-js"></script>
-<script type="text/javascript" src="{{ url('asset/wp-content/themes/School/assets/plugins/masonry/masonry.filter.js')}}" id="masonry-filter-js-js"></script>
-<script type="text/javascript" src="{{ url('asset/wp-content/themes/School/assets/js/slick.min.js')}}" id="slick-js-js"></script>
-<script type="text/javascript" src="{{ url('asset/wp-content/themes/School/assets/js/wow.min.js')}}" id="wow-js-js"></script>
-<script type="text/javascript" src="{{ url('asset/wp-content/themes/School/assets/js/magiczoomplus.js')}}" id="magiczoomplus-js-js"></script>
-<script type="text/javascript" src="{{ url('asset/wp-content/themes/School/assets/plugins/owl-carousel/owl.carousel.js')}}" id="owl-carousel-js-js"></script>
-<script type="text/javascript" src="{{ url('asset/wp-content/themes/School/assets/js/custom.js')}}" id="custom-js-js"></script>
-<script type="text/javascript" src="{{ url('asset/wp-content/themes/School/assets/js/dz.carousel.js')}}" id="dz-carousel-js-js"></script>
-<script type="text/javascript" src="{{ url('asset/wp-content/themes/School/assets/js/dz.ajax.js')}}" id="dz-ajax-js-js"></script>
+<script type="text/javascript" src="{{ url('public/asset/wp-content/themes/School/assets/plugins/bootstrap/js/popper.min.js')}}" id="popper-js-js"></script>
+<script type="text/javascript" src="{{ url('public/asset/aos@2.3.1/dist/aos.js')}}" id="aos-js-js"></script>
+<script type="text/javascript" src="{{ url('public/asset/wp-content/themes/School/assets/plugins/bootstrap/js/bootstrap.min.js')}}" id="bootstrap-js-js"></script>
+<script type="text/javascript" src="{{ url('public/asset/wp-content/themes/School/assets/plugins/bootstrap-select/bootstrap-select.min.js')}}" id="bootstrap-select-js-js"></script>
+<script type="text/javascript" src="{{ url('public/asset/wp-content/themes/School/assets/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js')}}" id="bootstrap-touchspin-js-js"></script>
+<script type="text/javascript" src="{{ url('public/asset/wp-content/themes/School/assets/plugins/magnific-popup/magnific-popup.js')}}" id="magnific-popup-js-js"></script>
+<script type="text/javascript" src="{{ url('public/asset/wp-content/themes/School/assets/plugins/counter/waypoints-min.js')}}" id="waypoints-js-js"></script>
+<script type="text/javascript" src="{{ url('public/asset/wp-content/themes/School/assets/plugins/counter/counterup.min.js')}}" id="counterup-js-js"></script>
+<script type="text/javascript" src="{{ url('public/asset/wp-content/themes/School/assets/plugins/imagesloaded/imagesloaded.js')}}" id="imagesloaded-js-js"></script>
+<script type="text/javascript" src="{{ url('public/asset/wp-content/themes/School/assets/plugins/masonry/masonry-3.1.4.js')}}" id="masonry-js-js"></script>
+<script type="text/javascript" src="{{ url('public/asset/wp-content/themes/School/assets/plugins/masonry/masonry.filter.js')}}" id="masonry-filter-js-js"></script>
+<script type="text/javascript" src="{{ url('public/asset/wp-content/themes/School/assets/js/slick.min.js')}}" id="slick-js-js"></script>
+<script type="text/javascript" src="{{ url('public/asset/wp-content/themes/School/assets/js/wow.min.js')}}" id="wow-js-js"></script>
+<script type="text/javascript" src="{{ url('public/asset/wp-content/themes/School/assets/js/magiczoomplus.js')}}" id="magiczoomplus-js-js"></script>
+<script type="text/javascript" src="{{ url('public/asset/wp-content/themes/School/assets/plugins/owl-carousel/owl.carousel.js')}}" id="owl-carousel-js-js"></script>
+<script type="text/javascript" src="{{ url('public/asset/wp-content/themes/School/assets/js/custom.js')}}" id="custom-js-js"></script>
+<script type="text/javascript" src="{{ url('public/asset/wp-content/themes/School/assets/js/dz.carousel.js')}}" id="dz-carousel-js-js"></script>
+<script type="text/javascript" src="{{ url('public/asset/wp-content/themes/School/assets/js/dz.ajax.js')}}" id="dz-ajax-js-js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">

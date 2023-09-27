@@ -38,7 +38,7 @@
         padding: 0 !important;
     }
     </style>
-    <link rel="stylesheet" href="{{ url('asset/wp-includes/css/dist/block-library/style.min.css') }}">
+    <link rel="stylesheet" href="{{ url('public/asset/wp-includes/css/dist/block-library/style.min.css') }}">
     <style id="classic-theme-styles-inline-css" type="text/css">
     /*! This file is auto-generated */
     .wp-block-button__link {
@@ -424,55 +424,55 @@
     }
     </style>
     <link rel="stylesheet" id="contact-form-7-css"
-        href="{{ url('asset/wp-content/plugins/contact-form-7/includes/css/styles.css') }}" type="text/css"
+        href="{{ url('public/asset/wp-content/plugins/contact-form-7/includes/css/styles.css') }}" type="text/css"
         media="all" />
-    <link rel="stylesheet" id="aos-css-css" href="{{ url('asset/aos@2.3.1/dist/aos.css') }}" type="text/css"
+    <link rel="stylesheet" id="aos-css-css" href="{{ url('public/asset/aos@2.3.1/dist/aos.css') }}" type="text/css"
         media="all" />
     <link rel="stylesheet" id="bootstrap-css-css"
-        href="{{ url('asset/wp-content/themes/School/assets/plugins/bootstrap/css/bootstrap.min.css') }}"
+        href="{{ url('public/asset/wp-content/themes/School/assets/plugins/bootstrap/css/bootstrap.min.css') }}"
         type="text/css" media="all" />
     <link rel="stylesheet" id="flaticon-css-css"
-        href="{{ url('asset/wp-content/themes/School/assets/plugins/flaticon/flaticon.css') }}" type="text/css"
+        href="{{ url('public/asset/wp-content/themes/School/assets/plugins/flaticon/flaticon.css') }}" type="text/css"
         media="all" />
     <link rel="stylesheet" id="themify-css-css"
-        href="{{ url('asset/wp-content/themes/School/assets/plugins/themify/themify-icons.css') }}" type="text/css"
+        href="{{ url('public/asset/wp-content/themes/School/assets/plugins/themify/themify-icons.css') }}" type="text/css"
         media="all" />
     <link rel="stylesheet" id="carousel-css-css"
-        href="{{ url('asset/wp-content/themes/School/assets/plugins/owl-carousel/owl.carousel.css') }}" type="text/css"
+        href="{{ url('public/asset/wp-content/themes/School/assets/plugins/owl-carousel/owl.carousel.css') }}" type="text/css"
         media="all" />
     <link rel="stylesheet" id="bootstrap-select-css-css"
-        href="{{ url('asset/wp-content/themes/School/assets/plugins/bootstrap-select/bootstrap-select.min.css') }}"
+        href="{{ url('public/asset/wp-content/themes/School/assets/plugins/bootstrap-select/bootstrap-select.min.css') }}"
         type="text/css" media="all" />
     <link rel="stylesheet" id="magnific-popup-css-css"
-        href="{{ url('asset/wp-content/themes/School/assets/plugins/magnific-popup/magnific-popup.css') }}"
+        href="{{ url('public/asset/wp-content/themes/School/assets/plugins/magnific-popup/magnific-popup.css') }}"
         type="text/css" media="all" />
     <link rel="stylesheet" id="scrollbar-css-css"
-        href="{{ url('asset/wp-content/themes/School/assets/plugins/scroll/scrollbar.css') }}" type="text/css"
+        href="{{ url('public/asset/wp-content/themes/School/assets/plugins/scroll/scrollbar.css') }}" type="text/css"
         media="all" />
-    <link rel="stylesheet" id="slick-css-css" href="{{ url('asset/wp-content/themes/School/assets/css/slick.css') }}"
+    <link rel="stylesheet" id="slick-css-css" href="{{ url('public/asset/wp-content/themes/School/assets/css/slick.css') }}"
         type="text/css" media="all" />
     <link rel="stylesheet" id="animate-css-css"
-        href="{{ url('asset/wp-content/themes/School/assets/css/animate.css') }}" type="text/css" media="all" />
+        href="{{ url('public/asset/wp-content/themes/School/assets/css/animate.css') }}" type="text/css" media="all" />
     <link rel="stylesheet" id="magiczoomplus-css-css"
-        href="{{ url('asset/wp-content/themes/School/assets/css/magiczoomplus.css') }}" type="text/css" media="all" />
-    <link rel="stylesheet" id="style-css-css" href="{{ url('asset/wp-content/themes/School/assets/css/style.css') }}"
+        href="{{ url('public/asset/wp-content/themes/School/assets/css/magiczoomplus.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" id="style-css-css" href="{{ url('public/asset/wp-content/themes/School/assets/css/style.css') }}"
         type="text/css" media="all" />
     <link rel="stylesheet" id="template-css-css"
-        href="{{ url('asset/wp-content/themes/School/assets/css/templete.css') }}" type="text/css" media="all" />
+        href="{{ url('public/asset/wp-content/themes/School/assets/css/templete.css') }}" type="text/css" media="all" />
     <link rel="stylesheet" id="skin-css-css"
-        href="{{ url('asset/wp-content/themes/School/assets/css/skin/skin-5.css') }}" type="text/css" media="all" />
+        href="{{ url('public/asset/wp-content/themes/School/assets/css/skin/skin-5.css') }}" type="text/css" media="all" />
     <link rel="stylesheet" id="fontwesome-css-css"
-        href="{{ url('asset/wp-content/themes/School/assets/fontwesome/css/all.css') }}" type="text/css" media="all" />
+        href="{{ url('public/asset/wp-content/themes/School/assets/fontwesome/css/all.css') }}" type="text/css" media="all" />
     <link rel="stylesheet" id="school-light-css-css"
-        href="{{ url('asset/wp-content/themes/School/assets/css/school-light.css') }}" type="text/css" media="all" />
+        href="{{ url('public/asset/wp-content/themes/School/assets/css/school-light.css') }}" type="text/css" media="all" />
     <link rel="stylesheet" id="google-css-css"
         href="https://fonts.googleapis.com/css?family=Lato%3A100%2C300%2C400%2C700%2C900%7CNunito%3A200%2C300%2C400%2C600%2C700%2C800%2C900%7COpen+Sans%3A300%2C400%2C600%2C700%2C800%7CPoppins%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CRoboto%3A100%2C300%2C400%2C500%2C700%2C900&#038;ver=1693895946"
         type="text/css" media="all" />
-    <link rel="stylesheet" id="avien-tech-css-css" href="{{ url('asset/wp-content/themes/School/style.css') }}"
+    <link rel="stylesheet" id="avien-tech-css-css" href="{{ url('public/asset/wp-content/themes/School/style.css') }}"
         type="text/css" media="all" />
-    <script type="text/javascript" src="{{ url('asset/wp-includes/js/jquery/jquery.min.js') }}" id="jquery-core-js">
+    <script type="text/javascript" src="{{ url('public/asset/wp-includes/js/jquery/jquery.min.js') }}" id="jquery-core-js">
     </script>
-    <script type="text/javascript" src="{{ url('asset/wp-includes/js/jquery/jquery-migrate.min.js') }}"
+    <script type="text/javascript" src="{{ url('public/asset/wp-includes/js/jquery/jquery-migrate.min.js') }}"
         id="jquery-migrate-js"></script>
 
     <style>
@@ -949,6 +949,6 @@
 </head>
 
 <body id="bg" class="home page-template-default page page-id-39"
-    style="background-image:url({{url('backgraund.png')}})">
+    style="background-image:url({{url('public/backgraund.png')}})">
     <script>
     </script>

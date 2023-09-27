@@ -6,9 +6,9 @@
                     <div id="block-13" class="widget side-bar widget_block widget_media_image">
                         <figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="241"
                                 height="150"
-                                src="{{url('suborno-logo.png')}}"
+                                src="{{url('public/suborno-logo.png')}}"
                                 alt class="wp-image-899"
-                                srcset="{{url('suborno-logo.png')}}" /></figure>
+                                srcset="{{url('public/suborno-logo.png')}}" /></figure>
                     </div>
                     <div class="widget widget_portal_btn">
                         <div class="card">
@@ -16,7 +16,7 @@
                                 <h3 class="widget-title m-b10">Online Protal</h3>
                             </div>
                             <div class="card-body">
-                                <a class="portal-btn" href="{{url('/admin-dashboard')}}">Online
+                                <a class="portal-btn" href="{{url('public//admin-dashboard')}}">Online
                                     Protal</a>
                             </div>
                         </div>
@@ -99,7 +99,7 @@
                                 <h3 class="widget-title m-b10">Emergency Number</h3>
                             </div>
                             <div class="card-body">
-                                <img src="{{url('emergency-number.png')}}"
+                                <img src="{{url('public/emergency-number.png')}}"
                                     alt="emergency-number-update">
                             </div>
                         </div>
@@ -108,7 +108,7 @@
                 <div class="col-lg-6 col-md-12 order-1 order-md-1 order-lg-2">
                     <div class="banner-slider slider" id="section2">
                         <div class="banner-image">
-                            <img src="{{url('thumb_801_1662_710_0_0_crop.jpg')}}"
+                            <img src="{{url('public/thumb_801_1662_710_0_0_crop.jpg')}}"
                                 alt="thumb_801_1662_710_0_0_crop">
                             <div class="banner-con-inner">
                                 <div class="container">
@@ -126,7 +126,7 @@
                     </div>
                     <div class="mobile-banner-slider banner-slider slider">
                         <div class="banner-image">
-                            <img src="{{url('thumb_801_1662_710_0_0_crop.jpg')}}"
+                            <img src="{{url('public/thumb_801_1662_710_0_0_crop.jpg')}}"
                                 alt>
                             <div class="banner-con-inner">
                                 <div class="container">
@@ -151,7 +151,7 @@
                                     <div class="massage-wrap mobile-view">
                                         <h2 class="text-uppercase">CHAIRMEN MESSAGE</h2>
                                         <div class="dez-separator bg-primary"></div>
-                                        <img src="{{url('manimage.jpg')}}"
+                                        <img src="{{url('public/manimage.jpg')}}"
                                             alt="Name Chairman" class="img-thumbnail">
                                         <h4>Name Chairman</h4>
                                         <p>Welcome to <strong>AvienTech School &amp; College</strong>, an
@@ -165,7 +165,7 @@
                                     <div class="massage-wrap">
                                         <h2 class="text-uppercase">PRINCIPAL MESSAGE</h2>
                                         <div class="dez-separator bg-primary"></div>
-                                        <img src="{{url('manimage.jpg')}}"
+                                        <img src="{{url('public/manimage.jpg')}}"
                                             alt="Name Peincipal" class="img-thumbnail">
                                         <h4>Name Peincipal</h4>
                                         <p>Welcome to<strong> AvienTech School &amp; College</strong>, an
@@ -191,7 +191,7 @@
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <div class="gallery-wrap">
-                                        <img src="{{url('schoolpic.jpg')}}"
+                                        <img src="{{url('public/schoolpic.jpg')}}"
                                             alt class="img-thumbnail">
                                     </div>
                                 </div>
@@ -276,9 +276,9 @@
                     <div id="block-14" class="widget side-bar widget_block widget_media_image">
                         <figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="218"
                                 height="150"
-                                src="{{url('mujib.png')}}"
+                                src="{{url('public/mujib.png')}}"
                                 class="wp-image-900"
-                                srcset="{{url('mujib.png')}}"
+                                srcset="{{url('public/mujib.png')}}"
                                 /></figure>
                     </div>
                     <div class="widget widget_notice">
@@ -358,38 +358,38 @@
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <img width="195" height="110"
-                                        src="{{url('schoolpic.jpg')}}"
+                                        src="{{url('public/schoolpic.jpg')}}"
                                             class="attachment-home_gallery_image size-home_gallery_image wp-post-image"
                                             alt decoding="async" />
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <img width="195" height="110"
-                                        src="{{url('schoolpic.jpg')}}"
+                                        src="{{url('public/schoolpic.jpg')}}"
                                             class="attachment-home_gallery_image size-home_gallery_image wp-post-image"
                                             alt decoding="async" />
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <img width="195" height="110"
-                                        src="{{url('schoolpic.jpg')}}"
+                                        src="{{url('public/schoolpic.jpg')}}"
                                             class="attachment-home_gallery_image size-home_gallery_image wp-post-image"
                                             alt decoding="async" />
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <img width="195" height="110"
-                                        src="{{url('schoolpic.jpg')}}"
+                                        src="{{url('public/schoolpic.jpg')}}"
                                             class="attachment-home_gallery_image size-home_gallery_image wp-post-image"
                                             alt decoding="async" />
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <img width="179" height="110"
-                                        src="{{url('schoolpic.jpg')}}"
+                                        src="{{url('public/schoolpic.jpg')}}"
                                             class="attachment-home_gallery_image size-home_gallery_image wp-post-image"
                                             alt decoding="async"
                                             />
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <img width="179" height="110"
-                                        src="{{url('schoolpic.jpg')}}"
+                                        src="{{url('public/schoolpic.jpg')}}"
                                             class="attachment-home_gallery_image size-home_gallery_image wp-post-image"
                                             alt decoding="async"
                                            />
