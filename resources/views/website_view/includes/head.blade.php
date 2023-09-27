@@ -431,9 +431,6 @@
     <link rel="stylesheet" id="bootstrap-css-css"
         href="{{ url('asset/wp-content/themes/School/assets/plugins/bootstrap/css/bootstrap.min.css') }}"
         type="text/css" media="all" />
-    <link rel="stylesheet" id="font-awesome-css-css"
-        href="{{ url('asset/wp-content/themes/School/assets/plugins/fontawesome/css/font-awesome.min.css') }}"
-        type="text/css" media="all" />
     <link rel="stylesheet" id="flaticon-css-css"
         href="{{ url('asset/wp-content/themes/School/assets/plugins/flaticon/flaticon.css') }}" type="text/css"
         media="all" />
@@ -952,6 +949,6 @@
 </head>
 
 <body id="bg" class="home page-template-default page page-id-39"
-    style="background-image:url({{asset('backgraund.png')}})">
+    style="background-image:url({{url('backgraund.png')}})">
     <script>
     </script>
