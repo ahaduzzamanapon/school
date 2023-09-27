@@ -499,38 +499,6 @@ jQuery(document).ready(function () {
     }),
     AOS.init({ duration: 1e3 });
 
-
-    let currentDate = dayjs();
-let daysInMonth = dayjs().daysInMonth();
-let firstDayPosition = dayjs().startOf("month").day();
-let monthNames = [
-  "January",
-  "February",
-  "March",
-  "April",
-  "May",
-  "June",
-  "July",
-  "August",
-  "September",
-  "October",
-  "November",
-  "December"
-];
-let weekNames = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
-let dateElement = document.querySelector("#calendar .calendar-dates");
-let calendarTitle = document.querySelector(".calendar-title-text");
-let nextMonthButton = document.querySelector("#nextMonth");
-let prevMonthButton = document.querySelector("#prevMonth");
-let dayNamesElement = document.querySelector(".calendar-day-name");
-let todayButton = document.querySelector("#today");
-let dateItems = null;
-let newMonth = null;
-
-weekNames.forEach(function (item) {
-  dayNamesElement.innerHTML += `<div>${item}</div>`;
-});
-
 function plotDays() {
   let count = 1;
   dateElement.innerHTML = "";
@@ -574,38 +542,3 @@ function highlightCurrentDate() {
     dateItems[currentDate.$D - 1].classList.add("today-date");
   }
 }
-
-//next month button event
-nextMonthButton.addEventListener("click", function () {
-  newMonth = currentDate.add(1, "month").startOf("month");
-  setSelectedMonth();
-});
-
-//prev month button event
-prevMonthButton.addEventListener("click", function () {
-  newMonth = currentDate.subtract(1, "month").startOf("month");
-  setSelectedMonth();
-});
-
-//today button event
-todayButton.addEventListener("click", function () {
-  newMonth = dayjs();
-  setSelectedMonth();
-  setTimeout(function () {
-    highlightCurrentDate();
-  }, 50);
-});
-
-//set next and prev month
-function setSelectedMonth() {
-  daysInMonth = newMonth.daysInMonth();
-  firstDayPosition = newMonth.startOf("month").day();
-  currentDate = newMonth;
-  plotDays();
-}
-
-//init
-plotDays();
-setTimeout(function () {
-  highlightCurrentDate();
-}, 50);

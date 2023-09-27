@@ -27,7 +27,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="https://school2.avientech.com/tel:+88 01322-303131">
+                                <a>
                                     <i class="fa fa-phone"></i>
                                     <span>+88 0123421414</span>
                                 </a>
@@ -43,13 +43,14 @@
                 <div class="row">
                     <div class="col-lg-2 col-md-2 col-6 order-lg-1 order-md-1 order-1">
                         <div class="logo-header mostion">
-                            <a href="https://school2.avientech.com">
-                                <img id="logoImage"
-                                    src="https://school2.avientech.com/wp-content/uploads/2023/09/AOGERy-90x90.png"
-                                    class="logo" alt="AOGERy" style="display: none;">
-                                <img id="logoTransparentImage"
-                                    src="https://school2.avientech.com/wp-content/uploads/2023/09/AOGERy-90x90.png"
-                                    class="logo" alt="AOGERy">
+                            <a href="#">
+                               <img id="logoImage"
+                                   src="{{asset('public/logo.png')}}"
+                                   class="logo" alt="AOGERy" style="display: none; width: 90px; height: 90px;">
+                               <img id="logoTransparentImage"
+                                   src="{{asset('public/logo.png')}}"
+                                   class="logo" alt="AOGERy" style="width: 90px; height: 90px;">
+                               
                             </a>
                         </div>
                     </div>
@@ -61,8 +62,8 @@
                     </div>
                     <div class="col-lg-3 col-md-3 col-6 order-lg-3 order-md-3 order-2">
                         <div class="logo-header mostion logo-right">
-                            <a href="https://school2.avientech.com">
-                                <img src="https://school2.avientech.com/wp-content/uploads/2023/08/mujib_100.png"
+                            <a href="#">
+                                <img  src="{{asset('public/mujib.png')}}"
                                     class="logo" alt="Logo Image">
                             </a>
                         </div>
@@ -83,24 +84,24 @@
                                 <ul>
                                     <li>
                                         <i class="fa fa-forward" aria-hidden="true"></i>
-                                        <a href="https://school2.avientech.com/welcome-to-our-college-dhaka/">আজ সকালে, আমরা আপনকে একটি আশ্চর্যজনক ঘটনা সম্পর্কে জানাতে আসছি, যা আমাদের প্রিয় বিদ্যালয়ে ঘটেছে। আমরা গর্বিতভাবে ঘোষণা করতে চাই যে, এই সময়ের বিদ্যালয় নিউজের জন্য আমাদের স্কুল একটি নতুন মুখোমুখি আবদ্ধ হয়েছে!.</a>
+                                        <a href="#">আজ সকালে, আমরা আপনকে একটি আশ্চর্যজনক ঘটনা সম্পর্কে জানাতে আসছি, যা আমাদের প্রিয় বিদ্যালয়ে ঘটেছে। আমরা গর্বিতভাবে ঘোষণা করতে চাই যে, এই সময়ের বিদ্যালয় নিউজের জন্য আমাদের স্কুল একটি নতুন মুখোমুখি আবদ্ধ হয়েছে!.</a>
                                     </li>
                                     <li>
                                         <i class="fa fa-forward" aria-hidden="true"></i>
-                                        <a href="https://school2.avientech.com/welcome-to-our-college-dhaka/">
+                                        <a href="#">
                                         এই সপ্তাহের বই মেলায়, আমাদের বিদ্যালয়ের পক্ষ থেকে একটি অদ্বিতীয় ঘটনা ঘটেছে। যদি তা না হয়, তা নির্ধারণ করতে কিছুটা সময় লাগতে পারে!
                                      </a>
                                     </li>
                                     <li>
                                         <i class="fa fa-forward" aria-hidden="true"></i>
-                                        <a href="https://school2.avientech.com/welcome-to-our-college-dhaka/">
+                                        <a href="#">
                                         স্কুলের পিকনিক আয়োজন করতে এই বছরের প্রথম দিন, একটি বাসে সমস্ত শিক্ষার্থী এবং শিক্ষকের জন্য একটি অদ্বিতীয় গন্তব্য নির্ধারণ করা হয়েছিল। শুরুতে এটি স্বাভাবিক একটি বিস্ময়কর দিনের মধ্যে সম্পন্ন হয়েছিল। তবে, পিকনিকের শেষে, ছাত্র-ছাত্রীদের পূর্বাবস্থায় একটি নতুন অস্ত্রোপচার ঘটে! 
                                     </a>
                                     </li>
                                 </ul>
                             </marquee>
                             <div class="news-btn">
-                                <a href="https://school2.avientech.com/news">সব খবর</a>
+                                <a href="#">সব খবর</a>
                             </div>
                         </div>
                     </div>
@@ -121,152 +122,140 @@
                                     href="#">Home</a></li>
                             <li id="menu-item-780"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-780">
-                                <a href="https://school2.avientech.com/about-us-2/">About Us</a>
+                                <a href="#">About Us</a>
                                 <ul class="sub-menu">
                                     <li id="menu-item-1045"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1045">
-                                        <a href="https://school2.avientech.com/about-us-2/">About Us</a>
+                                        <a href="#">About Us</a>
                                     </li>
                                     <li id="menu-item-953"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-953">
-                                        <a href="https://school2.avientech.com/message-form-chairman/">Message form
+                                        <a href="#">Message form
                                             Chairman</a>
                                     </li>
                                     <li id="menu-item-952"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-952">
-                                        <a href="https://school2.avientech.com/message-form-principal/">Message form
+                                        <a href="#">Message form
                                             Principal</a>
                                     </li>
                                     <li id="menu-item-951"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-951">
-                                        <a href="https://school2.avientech.com/governing-body/">Governing body</a>
+                                        <a href="#">Governing body</a>
                                     </li>
                                     <li id="menu-item-950"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-950">
-                                        <a href="https://school2.avientech.com/approval-letter/">Approval letter</a>
+                                        <a href="#">Approval letter</a>
                                     </li>
                                     <li id="menu-item-949"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-949">
-                                        <a href="https://school2.avientech.com/history/">History</a>
+                                        <a href="#">History</a>
                                     </li>
                                     <li id="menu-item-948"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-948">
-                                        <a href="https://school2.avientech.com/vision-and-objectives/">Vision and
+                                        <a href="#">Vision and
                                             Objectives</a>
                                     </li>
                                     <li id="menu-item-969"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-969">
-                                        <a href="https://school2.avientech.com/activities/">Activities</a>
+                                        <a href="#">Activities</a>
                                     </li>
                                 </ul>
                             </li>
                             <li id="menu-item-954"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-954">
-                                <a href="https://school2.avientech.com/#">ACADEMIC</a>
+                                <a href="#">ACADEMIC</a>
                                 <ul class="sub-menu">
                                     <li id="menu-item-966"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-966">
-                                        <a href="https://school2.avientech.com/academic-calendar/">Academic Calendar</a>
+                                        <a href="#">Academic Calendar</a>
                                     </li>
                                     <li id="menu-item-965"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-965">
-                                        <a href="https://school2.avientech.com/syllabus/">Syllabus</a>
+                                        <a href="#">Syllabus</a>
                                     </li>
                                     <li id="menu-item-964"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-964">
-                                        <a href="https://school2.avientech.com/class-routine/">Class Routine</a>
+                                        <a href="#">Class Routine</a>
                                     </li>
                                     <li id="menu-item-972"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-972">
-                                        <a href="https://school2.avientech.com/lesson-plan/">Lesson Plan</a>
+                                        <a href="#">Lesson Plan</a>
                                     </li>
                                     <li id="menu-item-963"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-963">
-                                        <a href="https://school2.avientech.com/co-curricular-activities/">Co-curricular
+                                        <a href="#">Co-curricular
                                             Activities</a>
                                     </li>
                                 </ul>
                             </li>
                             <li id="menu-item-989"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-989">
-                                <a href="https://school2.avientech.com/#">INFORMATION</a>
+                                <a href="#">INFORMATION</a>
                                 <ul class="sub-menu">
                                     <li id="menu-item-1038"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1038">
-                                        <a href="https://school2.avientech.com/notices/">Notice</a>
+                                        <a href="#">Notice</a>
                                     </li>
                                     <li id="menu-item-1151"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1151">
-                                        <a href="https://school2.avientech.com/result/">Result</a>
+                                        <a href="#">Result</a>
                                     </li>
                                     <li id="menu-item-991"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-991">
-                                        <a href="https://school2.avientech.com/teachers-info/">Teacher Info</a>
+                                        <a href="#">Teacher Info</a>
                                     </li>
                                     <li id="menu-item-990"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-990">
-                                        <a href="https://school2.avientech.com/student-info/">Student Info</a>
+                                        <a href="#">Student Info</a>
                                     </li>
                                     <li id="menu-item-992"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-992">
-                                        <a href="https://school2.avientech.com/list-of-holidays/">List of Holidays</a>
+                                        <a href="#">List of Holidays</a>
                                     </li>
                                     <li id="menu-item-995"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-995">
-                                        <a href="https://school2.avientech.com/facilities/">Facilities</a>
+                                        <a href="#">Facilities</a>
                                     </li>
-                                    <li id="menu-item-1171"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1171">
-                                        <a href="https://school2.avientech.com/download/">Download</a>
-                                    </li>
+                                  
                                 </ul>
                             </li>
                             <li id="menu-item-1002"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1002"><a
-                                    href="https://school2.avientech.com/admission/">Admission</a></li>
+                                    href="#">Admission</a></li>
                             <li id="menu-item-1004"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1004">
-                                <a href="https://school2.avientech.com/#">News &#038; Events</a>
+                                <a href="#">News &#038; Events</a>
                                 <ul class="sub-menu">
                                     <li id="menu-item-994"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-994">
-                                        <a href="https://school2.avientech.com/news/">News</a>
+                                        <a href="#">News</a>
                                     </li>
                                     <li id="menu-item-993"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-993">
-                                        <a href="https://school2.avientech.com/events/">Events</a>
+                                        <a href="#">Events</a>
                                     </li>
                                 </ul>
                             </li>
                             <li id="menu-item-999"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-999"><a
-                                    href="https://school2.avientech.com/gallery/">Gallery</a></li>
+                                    href="#">Gallery</a></li>
                             <li id="menu-item-779"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-779"><a
-                                    href="https://school2.avientech.com/contact/">Contact</a></li>
+                                    href="#">Contact</a></li>
                             <li id="menu-item-781"
                                 class="pll-parent-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-781">
-                                <a href="https://school2.avientech.com/#pll_switcher"><img
-                                        src="https://school2.avientech.com/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAmVBMVEViZsViZMJiYrf9gnL8eWrlYkjgYkjZYkj8/PujwPybvPz4+PetraBEgfo+fvo3efkydfkqcvj8Y2T8UlL8Q0P8MzP9k4Hz8/Lu7u4DdPj9/VrKysI9fPoDc/EAZ7z7IiLHYkjp6ekCcOTk5OIASbfY/v21takAJrT5Dg6sYkjc3Nn94t2RkYD+y8KeYkjs/v7l5fz0dF22YkjWvcOLAAAAgElEQVR4AR2KNULFQBgGZ5J13KGGKvc/Cw1uPe62eb9+Jr1EUBFHSgxxjP2Eca6AfUSfVlUfBvm1Ui1bqafctqMndNkXpb01h5TLx4b6TIXgwOCHfjv+/Pz+5vPRw7txGWT2h6yO0/GaYltIp5PT1dEpLNPL/SdWjYjAAZtvRPgHJX4Xio+DSrkAAAAASUVORK5CYII="
-                                        alt="English" width="16" height="11" style="width: 16px; height: 11px;" /><span
+                                <a href="#"><span
                                         style="margin-left:0.3em;">English</span></a>
                                 <ul class="sub-menu">
                                     <li id="menu-item-781-en"
                                         class="lang-item lang-item-78 lang-item-en current-lang lang-item-first menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-781-en">
-                                        <a href="https://school2.avientech.com/" hreflang="en-US" lang="en-US"><img
-                                                src="https://school2.avientech.com/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAmVBMVEViZsViZMJiYrf9gnL8eWrlYkjgYkjZYkj8/PujwPybvPz4+PetraBEgfo+fvo3efkydfkqcvj8Y2T8UlL8Q0P8MzP9k4Hz8/Lu7u4DdPj9/VrKysI9fPoDc/EAZ7z7IiLHYkjp6ekCcOTk5OIASbfY/v21takAJrT5Dg6sYkjc3Nn94t2RkYD+y8KeYkjs/v7l5fz0dF22YkjWvcOLAAAAgElEQVR4AR2KNULFQBgGZ5J13KGGKvc/Cw1uPe62eb9+Jr1EUBFHSgxxjP2Eca6AfUSfVlUfBvm1Ui1bqafctqMndNkXpb01h5TLx4b6TIXgwOCHfjv+/Pz+5vPRw7txGWT2h6yO0/GaYltIp5PT1dEpLNPL/SdWjYjAAZtvRPgHJX4Xio+DSrkAAAAASUVORK5CYII="
-                                                alt="English" width="16" height="11"
-                                                style="width: 16px; height: 11px;" /><span
+                                        <a href="#" hreflang="en-US" lang="en-US"><span
                                                 style="margin-left:0.3em;">English</span></a>
                                     </li>
                                     <li id="menu-item-781-bn"
                                         class="lang-item lang-item-108 lang-item-bn menu-item menu-item-type-custom menu-item-object-custom menu-item-781-bn">
-                                        <a href="https://school2.avientech.com/bn/%e0%a6%b9%e0%a7%8b%e0%a6%ae/"
-                                            hreflang="bn-BD" lang="bn-BD"><img
-                                                src="https://school2.avientech.com/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAXVBMVEUAPwAANgAALAAAHgAADgAAAAB5sHlxq3JopWhdn11Wm1ZPlk+Uf1LgW0/6S0r7QEDcTT+BZzQ3hjctfy0jeyNDjkP4NzbLXEj4Li69OB8VchX0ICANag1qThLTMCDLeAoGAAAAWUlEQVR4AQXBAWrCQBRAwXl/l6TV+99UECKpnQkkieRAIuXaLE1VVddGM3L4DCb1lHPmx3HbyjvnWA5MPH6dY/kz2Xq4zrHYX0zcfY5lzRe2XuXNLdImAPgHO0kOmeUlLKgAAAAASUVORK5CYII="
-                                                alt="বাংলা" width="16" height="11"
-                                                style="width: 16px; height: 11px;" /><span
-                                                style="margin-left:0.3em;">বাংলা</span></a>
+                                        <a href="#"
+                                            hreflang="bn-BD" lang="bn-BD"><span style="margin-left:0.3em;">বাংলা</span></a>
                                     </li>
                                 </ul>
                             </li>

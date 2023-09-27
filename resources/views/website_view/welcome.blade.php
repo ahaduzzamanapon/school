@@ -1,4 +1,4 @@
-@extends('layouts.default')
+@extends('website_view.layouts.default')
 @section('content')
         <div class="body-wrap">
             <div class="row">
@@ -6,10 +6,9 @@
                     <div id="block-13" class="widget side-bar widget_block widget_media_image">
                         <figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="241"
                                 height="150"
-                                src="https://school2.avientech.com/wp-content/uploads/2023/08/school-suborno-logo.png"
+                                src="{{url('suborno-logo.png')}}"
                                 alt class="wp-image-899"
-                                srcset="https://school2.avientech.com/wp-content/uploads/2023/08/school-suborno-logo.png 241w, https://school2.avientech.com/wp-content/uploads/2023/08/school-suborno-logo-145x90.png 145w"
-                                sizes="(max-width: 241px) 100vw, 241px" /></figure>
+                                srcset="{{url('suborno-logo.png')}}" /></figure>
                     </div>
                     <div class="widget widget_portal_btn">
                         <div class="card">
@@ -17,19 +16,8 @@
                                 <h3 class="widget-title m-b10">Online Protal</h3>
                             </div>
                             <div class="card-body">
-                                <a class="portal-btn" href="https://protal-school.avientech.com/dashboard">Online
+                                <a class="portal-btn" href="{{url('/admin-dashboard')}}">Online
                                     Protal</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="widget widget_portal_btn">
-                        <div class="card">
-                            <div class="card-header bg-primary">
-                                <h3 class="widget-title m-b10">Download</h3>
-                            </div>
-                            <div class="card-body">
-                                <a class="portal-btn" href="https://school3.avientech.com/download/">Download
-                                    Center</a>
                             </div>
                         </div>
                     </div>
@@ -75,7 +63,7 @@
                                 <h3 class="widget-title m-b10">Result</h3>
                             </div>
                             <div class="card-body">
-                                <a class="portal-btn" href="https://school3.avientech.com/result/">Exam Result</a>
+                                <a class="portal-btn" href="#">Exam Result</a>
                             </div>
                         </div>
                     </div>
@@ -111,7 +99,7 @@
                                 <h3 class="widget-title m-b10">Emergency Number</h3>
                             </div>
                             <div class="card-body">
-                                <img src="https://school2.avientech.com/wp-content/uploads/2023/09/emergency-number-update.png"
+                                <img src="{{url('emergency-number.png')}}"
                                     alt="emergency-number-update">
                             </div>
                         </div>
@@ -120,7 +108,7 @@
                 <div class="col-lg-6 col-md-12 order-1 order-md-1 order-lg-2">
                     <div class="banner-slider slider" id="section2">
                         <div class="banner-image">
-                            <img src="https://school2.avientech.com/wp-content/uploads/2023/08/thumb_801_1662_710_0_0_crop.jpg"
+                            <img src="{{url('thumb_801_1662_710_0_0_crop.jpg')}}"
                                 alt="thumb_801_1662_710_0_0_crop">
                             <div class="banner-con-inner">
                                 <div class="container">
@@ -138,7 +126,7 @@
                     </div>
                     <div class="mobile-banner-slider banner-slider slider">
                         <div class="banner-image">
-                            <img src="https://school2.avientech.com/wp-content/uploads/2023/08/thumb_801_1662_710_0_0_crop.jpg"
+                            <img src="{{url('thumb_801_1662_710_0_0_crop.jpg')}}"
                                 alt>
                             <div class="banner-con-inner">
                                 <div class="container">
@@ -147,7 +135,7 @@
                                             <div class="home-banner-content">
                                                 <h1 class="banner-title">
                                                 </h1>
-                                                <a href=https://school2.avientech.com/1 id="hoverTuneButton">
+                                                <a href="#" id="hoverTuneButton">
                                                 </a>
                                             </div>
                                         </div>
@@ -163,28 +151,28 @@
                                     <div class="massage-wrap mobile-view">
                                         <h2 class="text-uppercase">CHAIRMEN MESSAGE</h2>
                                         <div class="dez-separator bg-primary"></div>
-                                        <img src="https://school2.avientech.com/wp-content/uploads/2023/09/portrait-smiling-senior-businessman-library-scaled.jpg"
+                                        <img src="{{url('manimage.jpg')}}"
                                             alt="Name Chairman" class="img-thumbnail">
                                         <h4>Name Chairman</h4>
                                         <p>Welcome to <strong>AvienTech School &amp; College</strong>, an
                                             educational institute founded and administered by the Congregation of
                                             Holy Cross which has been serving the nation.</p>
                                         <a class="more-button"
-                                            href="https://school2.avientech.com/chairmen-massage/">Read More</a>
+                                            href="#">Read More</a>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <div class="massage-wrap">
                                         <h2 class="text-uppercase">PRINCIPAL MESSAGE</h2>
                                         <div class="dez-separator bg-primary"></div>
-                                        <img src="https://school2.avientech.com/wp-content/uploads/2023/09/young-woman-teacher-wearing-glasses-sitting-school-desk-front-blackboard-classroom-checking-class-register-looking-camera-smiling-cheerfully-scaled.jpg"
+                                        <img src="{{url('manimage.jpg')}}"
                                             alt="Name Peincipal" class="img-thumbnail">
                                         <h4>Name Peincipal</h4>
                                         <p>Welcome to<strong> AvienTech School &amp; College</strong>, an
                                             educational institute founded and administered by the Congregation of
                                             Holy Cross which has been serving the nation.</p>
                                         <a class="more-button"
-                                            href="https://school2.avientech.com/principal-massage/">Read More</a>
+                                            href="#">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -195,7 +183,7 @@
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <div class="welcome-content">
-                                        <h2>WELCOME TO Avientech College, Dhaka</h2>
+                                        <h2>WELCOME TO my College, Dhaka</h2>
                                         <p>At the present time the College receives no financial aid from the
                                             government of Bangladesh. It is supported entirely by tuition fees
                                             collected from the students.</p>
@@ -203,12 +191,12 @@
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <div class="gallery-wrap">
-                                        <img src="https://school2.avientech.com/wp-content/uploads/2023/09/2022-12-09.jpg"
+                                        <img src="{{url('schoolpic.jpg')}}"
                                             alt class="img-thumbnail">
                                     </div>
                                 </div>
                                 <div class="col-lg-12 text-center mt-3">
-                                    <a class="more-button" href="https://school3.avientech.com/about-us-2/">Read
+                                    <a class="more-button" href="#">Read
                                         More</a>
                                 </div>
                             </div>
@@ -223,27 +211,27 @@
                                             <div class="card">
                                                 <div class="card-header bg-primary">
                                                     <h3 class="widget-title m-b10">Events</h3> <a
-                                                        href="https://school2.avientech.com/events">View All</a>
+                                                        href="#">View All</a>
                                                 </div>
                                                 <div class="card-body">
                                                     <ul>
                                                         <li>
                                                             <a
-                                                                href="https://school2.avientech.com/events/school-events/">School
+                                                                href="#">School
                                                                 Events</a>
                                                         </li>
                                                         <li>
                                                             <a
-                                                                href="https://school2.avientech.com/events/international-mother-language-day/">Language
+                                                                href="#">Language
                                                                 Day</a>
                                                         </li>
                                                         <li>
-                                                            <a href="https://school2.avientech.com/events/victory-day/">Victory
+                                                            <a href="#">Victory
                                                                 Day</a>
                                                         </li>
                                                         <li>
                                                             <a
-                                                                href="https://school2.avientech.com/events/independent-day/">Independent
+                                                                href="#">Independent
                                                                 Day</a>
                                                         </li>
                                                     </ul>
@@ -258,19 +246,19 @@
                                             <div class="card">
                                                 <div class="card-header bg-primary">
                                                     <h3 class="widget-title m-b10">News</h3> <a
-                                                        href="https://school2.avientech.com/news">View All</a>
+                                                        href="#">View All</a>
                                                 </div>
                                                 <div class="card-body">
                                                     <ul>
                                                         <li>
                                                             <a
-                                                                href="https://school2.avientech.com/welcome-to-our-college-dhaka/">Lorem
+                                                                href="#">Lorem
                                                                 Ipsum is simply dummy text of the printing and
                                                                 typesetting industry.</a>
                                                         </li>
                                                         <li>
                                                             <a
-                                                                href="https://school2.avientech.com/welcome-to-notre-dame-college-dhaka/">Lorem
+                                                                href="#">Lorem
                                                                 Ipsum is simply dummy text of the printing and
                                                                 typesetting industry.</a>
                                                         </li>
@@ -288,43 +276,43 @@
                     <div id="block-14" class="widget side-bar widget_block widget_media_image">
                         <figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="218"
                                 height="150"
-                                src="https://school2.avientech.com/wp-content/uploads/2023/08/Mujib-logo.png" alt
+                                src="{{url('mujib.png')}}"
                                 class="wp-image-900"
-                                srcset="https://school2.avientech.com/wp-content/uploads/2023/08/Mujib-logo.png 218w, https://school2.avientech.com/wp-content/uploads/2023/08/Mujib-logo-131x90.png 131w"
-                                sizes="(max-width: 218px) 100vw, 218px" /></figure>
+                                srcset="{{url('mujib.png')}}"
+                                /></figure>
                     </div>
                     <div class="widget widget_notice">
                         <div class="notice-wrap">
                             <div class="card">
                                 <div class="card-header bg-primary">
                                     <h3 class="widget-title m-b10">Notice</h3> <a
-                                        href="https://school3.avientech.com/notices/">View All</a>
+                                        href="#">View All</a>
                                 </div>
                                 <div class="card-body">
                                     <ul>
                                         <li>
                                             <a
-                                                href="https://school2.avientech.com/notices/production-storage-transfer-transport-supply-distribution-and-marketing/">Production,
+                                                href="#">Production,
                                                 Storage, Transfer, Transport, Supply, Distribution and Marketing</a>
                                         </li>
                                         <li>
                                             <a
-                                                href="https://school2.avientech.com/notices/regarding-attending-the-hearing-with-necessary-documents/">Regarding
+                                                href="#">Regarding
                                                 attending the hearing with necessary documents.</a>
                                         </li>
                                         <li>
                                             <a
-                                                href="https://school2.avientech.com/notices/meeting-to-review-the-draft-policy-regarding-tuition/">Meeting
+                                                href="#">Meeting
                                                 to review the draft policy regarding tuition</a>
                                         </li>
                                         <li>
                                             <a
-                                                href="https://school2.avientech.com/notices/sent-up-i-promotion-exam-routine/">Sent
+                                                href="#">Sent
                                                 Up I (Promotion) Exam Routine</a>
                                         </li>
                                         <li>
                                             <a
-                                                href="https://school2.avientech.com/notices/tuition-fee-payment-method-through-rocket-and-nexus-pay/">Tuition
+                                                href="#">Tuition
                                                 fee payment method through Rocket and Nexus Pay</a>
                                         </li>
                                     </ul>
@@ -340,18 +328,20 @@
                                 </div>
                                 <div class="card-body">
                                     <div class="calender-wrap">
-                                        <div id="calendar" class="calendar">
-                                            <div class="calendar-title">
-                                                <div class="calendar-title-text"></div>
-                                                <div class="calendar-button-group">
-                                                    <button id="prevMonth">&lt;</button>
-                                                    <button id="today">Today</button>
-                                                    <button id="nextMonth">&gt;</button>
-                                                </div>
-                                            </div>
-                                            <div class="calendar-day-name"></div>
-                                            <div class="calendar-dates"></div>
-                                        </div>
+                                       <div id="calendar" class="calendar">
+                                         <!-- Calendar will be added here -->
+                                       </div>
+                                       
+                                       <script>
+                                         $(document).ready(function() {
+                                           // Add calendar logic here
+                                           // You can use any jQuery calendar plugin of your choice
+                                           
+                                           // For example, let's use jQuery UI Datepicker plugin
+                                           $('#calendar').datepicker();
+                                         });
+                                       </script>
+                                       
                                     </div>
                                 </div>
                             </div>
@@ -361,50 +351,48 @@
                         <div class="card">
                             <div class="card-header bg-primary">
                                 <h3 class="widget-title m-b10">Gallery</h3> <a
-                                    href="https://school3.avientech.com/bn/%e0%a6%97%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%b2%e0%a6%be%e0%a6%b0%e0%a6%bf/">View
+                                    href="#">View
                                     All</a>
                             </div>
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <img width="195" height="110"
-                                            src="https://school2.avientech.com/wp-content/uploads/2023/08/event-six-195x110.jpg"
+                                        src="{{url('schoolpic.jpg')}}"
                                             class="attachment-home_gallery_image size-home_gallery_image wp-post-image"
                                             alt decoding="async" />
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <img width="195" height="110"
-                                            src="https://school2.avientech.com/wp-content/uploads/2023/08/event-seven-195x110.jpg"
+                                        src="{{url('schoolpic.jpg')}}"
                                             class="attachment-home_gallery_image size-home_gallery_image wp-post-image"
                                             alt decoding="async" />
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <img width="195" height="110"
-                                            src="https://school2.avientech.com/wp-content/uploads/2023/08/event-five-195x110.jpg"
+                                        src="{{url('schoolpic.jpg')}}"
                                             class="attachment-home_gallery_image size-home_gallery_image wp-post-image"
                                             alt decoding="async" />
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <img width="195" height="110"
-                                            src="https://school2.avientech.com/wp-content/uploads/2023/08/event-eight-195x110.jpg"
+                                        src="{{url('schoolpic.jpg')}}"
                                             class="attachment-home_gallery_image size-home_gallery_image wp-post-image"
                                             alt decoding="async" />
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <img width="179" height="110"
-                                            src="https://school2.avientech.com/wp-content/uploads/2023/08/School-Events-that-Parents-and-Children-1280x720-1.png"
+                                        src="{{url('schoolpic.jpg')}}"
                                             class="attachment-home_gallery_image size-home_gallery_image wp-post-image"
                                             alt decoding="async"
-                                            srcset="https://school2.avientech.com/wp-content/uploads/2023/08/School-Events-that-Parents-and-Children-1280x720-1.png 285w, https://school2.avientech.com/wp-content/uploads/2023/08/School-Events-that-Parents-and-Children-1280x720-1-147x90.png 147w"
-                                            sizes="(max-width: 179px) 100vw, 179px" />
+                                            />
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <img width="179" height="110"
-                                            src="https://school2.avientech.com/wp-content/uploads/2023/08/image-100465-1671191862.jpg"
+                                        src="{{url('schoolpic.jpg')}}"
                                             class="attachment-home_gallery_image size-home_gallery_image wp-post-image"
                                             alt decoding="async"
-                                            srcset="https://school2.avientech.com/wp-content/uploads/2023/08/image-100465-1671191862.jpg 285w, https://school2.avientech.com/wp-content/uploads/2023/08/image-100465-1671191862-147x90.jpg 147w"
-                                            sizes="(max-width: 179px) 100vw, 179px" />
+                                           />
                                     </div>
                                 </div>
                             </div>
