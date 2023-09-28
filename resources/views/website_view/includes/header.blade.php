@@ -50,7 +50,7 @@
                                <img id="logoTransparentImage"
                                    src="{{url('logo.png')}}"
                                    class="logo" alt="AOGERy" style="width: 90px; height: 90px;">
-                               
+
                             </a>
                         </div>
                     </div>
@@ -95,7 +95,7 @@
                                     <li>
                                         <i class="fa fa-forward" aria-hidden="true"></i>
                                         <a href="#">
-                                        স্কুলের পিকনিক আয়োজন করতে এই বছরের প্রথম দিন, একটি বাসে সমস্ত শিক্ষার্থী এবং শিক্ষকের জন্য একটি অদ্বিতীয় গন্তব্য নির্ধারণ করা হয়েছিল। শুরুতে এটি স্বাভাবিক একটি বিস্ময়কর দিনের মধ্যে সম্পন্ন হয়েছিল। তবে, পিকনিকের শেষে, ছাত্র-ছাত্রীদের পূর্বাবস্থায় একটি নতুন অস্ত্রোপচার ঘটে! 
+                                        স্কুলের পিকনিক আয়োজন করতে এই বছরের প্রথম দিন, একটি বাসে সমস্ত শিক্ষার্থী এবং শিক্ষকের জন্য একটি অদ্বিতীয় গন্তব্য নির্ধারণ করা হয়েছিল। শুরুতে এটি স্বাভাবিক একটি বিস্ময়কর দিনের মধ্যে সম্পন্ন হয়েছিল। তবে, পিকনিকের শেষে, ছাত্র-ছাত্রীদের পূর্বাবস্থায় একটি নতুন অস্ত্রোপচার ঘটে!
                                     </a>
                                     </li>
                                 </ul>
@@ -126,38 +126,38 @@
                                 <ul class="sub-menu">
                                     <li id="menu-item-1045"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1045">
-                                        <a href="#">About Us</a>
+                                        <a href="/about-us">About Us</a>
                                     </li>
                                     <li id="menu-item-953"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-953">
-                                        <a href="#">Message form
+                                        <a href="/message-form-chairman">Message form
                                             Chairman</a>
                                     </li>
                                     <li id="menu-item-952"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-952">
-                                        <a href="#">Message form
+                                        <a href="/message-form-principal">Message form
                                             Principal</a>
                                     </li>
                                     <li id="menu-item-951"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-951">
-                                        <a href="#">Governing body</a>
+                                        <a href="/governing-body">Governing body</a>
                                     </li>
                                     <li id="menu-item-950"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-950">
-                                        <a href="#">Approval letter</a>
+                                        <a href="/approval-letter">Approval letter</a>
                                     </li>
                                     <li id="menu-item-949"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-949">
-                                        <a href="#">History</a>
+                                        <a href="/history">History</a>
                                     </li>
                                     <li id="menu-item-948"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-948">
-                                        <a href="#">Vision and
+                                        <a href="/vision-and-objectives">Vision and
                                             Objectives</a>
                                     </li>
                                     <li id="menu-item-969"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-969">
-                                        <a href="#">Activities</a>
+                                        <a href="/activities">Activities</a>
                                     </li>
                                 </ul>
                             </li>
@@ -216,7 +216,7 @@
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-995">
                                         <a href="#">Facilities</a>
                                     </li>
-                                  
+
                                 </ul>
                             </li>
                             <li id="menu-item-1002"
