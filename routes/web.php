@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Website;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('website_view.welcome');
-});
+
+// Design aria start
+// ============================================================================================
 
 
 Route::get('/about-us', function () {
@@ -74,6 +75,85 @@ Route::get('/co-curricular-activities', function () {
     return view('website_view.co-curricular-activities');
 });
 
-//Route::get('/', function () {
-//    return view('website_view.');
-//});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Design aria end
+// ============================================================================================
+
+
+
+
+// development aria Start
+// ========================================================================================================================
+    Route::get('/', [Website::class, 'index']);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// development aria end
+// ========================================================================================================================
