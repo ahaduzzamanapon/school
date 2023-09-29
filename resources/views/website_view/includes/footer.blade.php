@@ -8,7 +8,7 @@
                                     style="margin-bottom:15px!important;">
                                     <div class="logo-footer">
                                         <a>
-                                            <img src="{{ url('logo.png') }}"
+                                            <img src="{{ url('public/logo.png') }}"
                                                 alt="AOGERy">
                                         </a>
                                     </div>

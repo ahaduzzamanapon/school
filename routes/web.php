@@ -53,3 +53,27 @@ Route::get('/vision-and-objectives', function () {
 Route::get('/activities', function () {
     return view('website_view.activities');
 });
+
+Route::get('/academic-calendar', function () {
+    return view('website_view.academic-calendar');
+});
+
+Route::get('/syllabus', function () {
+    return view('website_view.syllabus');
+});
+
+Route::get('/class-routine', function () {
+    return view('website_view.class-routine');
+});
+
+Route::get('/lesson-plan', function () {
+    return view('website_view.lesson-plan');
+});
+
+Route::get('/co-curricular-activities', function () {
+    return view('website_view.co-curricular-activities');
+});
+
+//Route::get('/', function () {
+//    return view('website_view.');
+//});

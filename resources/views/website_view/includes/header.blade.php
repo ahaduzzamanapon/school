@@ -130,34 +130,34 @@
                                     </li>
                                     <li id="menu-item-953"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-953">
-                                        <a href="/message-form-chairman">Message form
+                                        <a href="{{url('/message-form-chairman')}}">Message form
                                             Chairman</a>
                                     </li>
                                     <li id="menu-item-952"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-952">
-                                        <a href="/message-form-principal">Message form
+                                        <a href="{{url('/message-form-principal')}}">Message form
                                             Principal</a>
                                     </li>
                                     <li id="menu-item-951"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-951">
-                                        <a href="/governing-body">Governing body</a>
+                                        <a href="{{url('/governing-body')}}">Governing body</a>
                                     </li>
                                     <li id="menu-item-950"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-950">
-                                        <a href="/approval-letter">Approval letter</a>
+                                        <a href="{{url('/approval-letter')}}">Approval letter</a>
                                     </li>
                                     <li id="menu-item-949"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-949">
-                                        <a href="/history">History</a>
+                                        <a href="{{url('/history')}}">History</a>
                                     </li>
                                     <li id="menu-item-948"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-948">
-                                        <a href="/vision-and-objectives">Vision and
+                                        <a href="{{url('/vision-and-objectives')}}">Vision and
                                             Objectives</a>
                                     </li>
                                     <li id="menu-item-969"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-969">
-                                        <a href="/activities">Activities</a>
+                                        <a href="{{url('/activities')}}">Activities</a>
                                     </li>
                                 </ul>
                             </li>
@@ -167,23 +167,23 @@
                                 <ul class="sub-menu">
                                     <li id="menu-item-966"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-966">
-                                        <a href="#">Academic Calendar</a>
+                                        <a href="{{url('/academic-calendar')}}">Academic Calendar</a>
                                     </li>
                                     <li id="menu-item-965"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-965">
-                                        <a href="#">Syllabus</a>
+                                        <a href="{{url('/syllabus')}}">Syllabus</a>
                                     </li>
                                     <li id="menu-item-964"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-964">
-                                        <a href="#">Class Routine</a>
+                                        <a href="{{url('/class-routine')}}">Class Routine</a>
                                     </li>
                                     <li id="menu-item-972"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-972">
-                                        <a href="#">Lesson Plan</a>
+                                        <a href="{{url('/lesson-plan')}}">Lesson Plan</a>
                                     </li>
                                     <li id="menu-item-963"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-963">
-                                        <a href="#">Co-curricular
+                                        <a href="{{url('/co-curricular-activities')}}">Co-curricular
                                             Activities</a>
                                     </li>
                                 </ul>
