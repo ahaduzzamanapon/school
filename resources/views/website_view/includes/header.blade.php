@@ -122,11 +122,11 @@
                                     href="#">Home</a></li>
                             <li id="menu-item-780"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-780">
-                                <a href="#">About Us</a>
+                                <a>About Us</a>
                                 <ul class="sub-menu">
                                     <li id="menu-item-1045"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1045">
-                                        <a href="/about-us">About Us</a>
+                                        <a href="{{url('/about-us')}}">About Us</a>
                                     </li>
                                     <li id="menu-item-953"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-953">
