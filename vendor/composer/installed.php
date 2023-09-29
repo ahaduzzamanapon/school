@@ -3,7 +3,7 @@
         'name' => 'laravel/laravel',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'a0917c1ac08cb9458714f87da4231b8c65436201',
+        'reference' => '1981abe116f18ae11bee100a970d8a777959546f',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -382,7 +382,7 @@
         'laravel/laravel' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'a0917c1ac08cb9458714f87da4231b8c65436201',
+            'reference' => '1981abe116f18ae11bee100a970d8a777959546f',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -407,9 +407,9 @@
             'dev_requirement' => true,
         ),
         'laravel/prompts' => array(
-            'pretty_version' => 'v0.1.9',
-            'version' => '0.1.9.0',
-            'reference' => 'b603410e7af1040aa2d29e0a2cdca570bb63e827',
+            'pretty_version' => 'v0.1.10',
+            'version' => '0.1.10.0',
+            'reference' => '37ed55f6950d921a87d5beeab16d03f8de26b060',
             'type' => 'library',
             'install_path' => __DIR__ . '/../laravel/prompts',
             'aliases' => array(),
@@ -775,8 +775,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '3.0.0',
-                1 => '1.0|2.0|3.0',
+                0 => '1.0|2.0|3.0',
+                1 => '3.0.0',
             ),
         ),
         'psr/simple-cache' => array(
