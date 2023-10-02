@@ -74,7 +74,7 @@
                     <div class="col-lg-12">
                         <div class="news-wrap">
                             <div class="news-title">
-                                <span>সর্বশেষ সংবাদ</span>
+                                <span>  {{ __('Latest_News') }}</span>
                             </div>
                             <marquee behavior="scroll" direction="left" onmouseover="this.stop();"
                                 onmouseout="this.start();">
@@ -247,16 +247,16 @@
                                     href="{{ url('/contact') }}">Contact</a></li>
                             <li id="menu-item-781"
                                 class="pll-parent-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-781">
-                                <a href="#"><span style="margin-left:0.3em;">English</span></a>
+                                <a><span style="margin-left:0.3em;">  {{ __('Current_Language') }}</span></a>
                                 <ul class="sub-menu">
                                     <li id="menu-item-781-en"
                                         class="lang-item lang-item-78 lang-item-en current-lang lang-item-first menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-781-en">
-                                        <a href="#" hreflang="en-US" lang="en-US"><span
+                                        <a href="{{url('language/en')}}" hreflang="en-US" lang="en-US"><span
                                                 style="margin-left:0.3em;">English</span></a>
                                     </li>
                                     <li id="menu-item-781-bn"
                                         class="lang-item lang-item-108 lang-item-bn menu-item menu-item-type-custom menu-item-object-custom menu-item-781-bn">
-                                        <a href="#" hreflang="bn-BD" lang="bn-BD"><span
+                                        <a href="{{url('language/bn')}}" hreflang="bn-BD" lang="bn-BD"><span
                                                 style="margin-left:0.3em;">বাংলা</span></a>
                                     </li>
                                 </ul>
