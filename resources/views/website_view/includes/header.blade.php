@@ -54,8 +54,8 @@
                     </div>
                     <div class="col-lg-7 col-md-7 col-12 order-lg-2 order-md-2 order-3">
                         <div class="school-name-wrap">
-                            <h1>মাগুরা মাধ্যমিক বালিকা বিদ্যালয়</h1>
-                            <span>মাগুরা কিশোরগঞ্জ, নীলফামারী </span>
+                            <h1>{{ __('School_Name') }}</h1>
+                            <span>{{ __('School_Addres') }}</span>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-6 order-lg-3 order-md-3 order-2">
@@ -74,7 +74,7 @@
                     <div class="col-lg-12">
                         <div class="news-wrap">
                             <div class="news-title">
-                                <span>  {{ __('Latest_News') }}</span>
+                                <span> {{ __('Latest_News') }}</span>
                             </div>
                             <marquee behavior="scroll" direction="left" onmouseover="this.stop();"
                                 onmouseout="this.start();">
@@ -105,7 +105,7 @@
                                 </ul>
                             </marquee>
                             <div class="news-btn">
-                                <a href="#">সব খবর</a>
+                                <a href="#">{{ __('All_News') }}</a>
                             </div>
                         </div>
                     </div>
@@ -118,145 +118,149 @@
                     <button class="navbar-toggler collapsed navicon justify-content-end" type="button"
                         data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
                         aria-expanded="false" aria-label="Toggle navigation">
-                        MENU </button>
+                        {{ __('Menu') }} </button>
                     <div class="header-nav navbar-collapse collapse" id="navbarNavDropdown">
                         <ul id="menu-main-menu-english" class="nav navbar-nav">
                             <li id="menu-item-858"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-858"><a
-                                    href="#">Home</a></li>
+                                    href="{{ url('/') }}">{{ __('Home') }}</a></li>
                             <li id="menu-item-780"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-780">
-                                <a>About Us</a>
+                                <a>{{ __('About_Us') }}</a>
                                 <ul class="sub-menu">
                                     <li id="menu-item-1045"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1045">
-                                        <a href="{{ url('/about-us') }}">About Us</a>
+                                        <a href="{{ url('/about-us') }}">{{ __('About_Us') }}</a>
                                     </li>
                                     <li id="menu-item-953"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-953">
-                                        <a href="{{ url('/message-form-chairman') }}">Message form
-                                            Chairman</a>
+                                        <a
+                                            href="{{ url('/message-form-chairman') }}">{{ __('Message_from_Chairman') }}</a>
                                     </li>
                                     <li id="menu-item-952"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-952">
-                                        <a href="{{ url('/message-form-principal') }}">Message form
-                                            Principal</a>
+                                        <a
+                                            href="{{ url('/message-form-principal') }}">{{ __('Message_from_Principal') }}</a>
                                     </li>
                                     <li id="menu-item-951"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-951">
-                                        <a href="{{ url('/governing-body') }}">Governing body</a>
+                                        <a href="{{ url('/governing-body') }}">{{ __('Governing_body') }}</a>
                                     </li>
                                     <li id="menu-item-950"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-950">
-                                        <a href="{{ url('/approval-letter') }}">Approval letter</a>
+                                        <a href="{{ url('/approval-letter') }}">{{ __('Approval_letter') }}</a>
                                     </li>
                                     <li id="menu-item-949"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-949">
-                                        <a href="{{ url('/history') }}">History</a>
+                                        <a href="{{ url('/history') }}">{{ __('History') }}</a>
                                     </li>
                                     <li id="menu-item-948"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-948">
-                                        <a href="{{ url('/vision-and-objectives') }}">Vision and
-                                            Objectives</a>
+                                        <a
+                                            href="{{ url('/vision-and-objectives') }}">{{ __('Vision_and_Objectives') }}</a>
                                     </li>
                                     <li id="menu-item-969"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-969">
-                                        <a href="{{ url('/activities') }}">Activities</a>
+                                        <a href="{{ url('/activities') }}">{{ __('Activities') }}</a>
                                     </li>
                                 </ul>
                             </li>
                             <li id="menu-item-954"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-954">
-                                <a href="#">ACADEMIC</a>
+                                <a href="#">{{ __('ACADEMIC') }}</a>
                                 <ul class="sub-menu">
                                     <li id="menu-item-966"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-966">
-                                        <a href="{{ url('/academic-calendar') }}">Academic Calendar</a>
+                                        <a href="{{ url('/academic-calendar') }}">{{ __('Academic_Calendar') }}</a>
                                     </li>
                                     <li id="menu-item-965"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-965">
-                                        <a href="{{ url('/syllabus') }}">Syllabus</a>
+                                        <a href="{{ url('/syllabus') }}">{{ __('Syllabus') }}</a>
                                     </li>
                                     <li id="menu-item-964"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-964">
-                                        <a href="{{ url('/class-routine') }}">Class Routine</a>
+                                        <a href="{{ url('/class-routine') }}">{{ __('Class_Routine') }}</a>
                                     </li>
                                     <li id="menu-item-972"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-972">
-                                        <a href="{{ url('/lesson-plan') }}">Lesson Plan</a>
+                                        <a href="{{ url('/lesson-plan') }}">{{ __('Lesson_Plan') }}</a>
                                     </li>
                                     <li id="menu-item-963"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-963">
-                                        <a href="{{ url('/co-curricular-activities') }}">Co-curricular
-                                            Activities</a>
+                                        <a
+                                            href="{{ url('/co-curricular-activities') }}">{{ __('Co_curricular_Activities') }}</a>
                                     </li>
                                 </ul>
                             </li>
                             <li id="menu-item-989"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-989">
-                                <a href="#">INFORMATION</a>
+                                <a href="#">{{ __('INFORMATION') }}</a>
                                 <ul class="sub-menu">
                                     <li id="menu-item-1038"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1038">
-                                        <a href="{{ url('/notice') }}">Notice</a>
+                                        <a href="{{ url('/notice') }}">{{ __('Notice') }}</a>
                                     </li>
                                     <li id="menu-item-1151"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1151">
-                                        <a href="{{ url('/results') }}">Result</a>
+                                        <a href="{{ url('/results') }}">{{ __('Result') }}</a>
                                     </li>
                                     <li id="menu-item-991"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-991">
-                                        <a href="{{ url('/teachers-info') }}">Teacher Info</a>
+                                        <a href="{{ url('/teachers-info') }}">{{ __('Teacher_Info') }}</a>
                                     </li>
                                     <li id="menu-item-990"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-990">
-                                        <a href="{{ url('/students-info') }}">Student Info</a>
+                                        <a href="{{ url('/students-info') }}">{{ __('Student_Info') }}</a>
                                     </li>
                                     <li id="menu-item-992"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-992">
-                                        <a href="{{ url('/list-of-holidays') }}">List of Holidays</a>
+                                        <a href="{{ url('/list-of-holidays') }}">{{ __('List_of_Holidays') }}</a>
+                                    </li>
+                                    <li id="menu-item-992"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-992">
+                                        <a href="{{ url('/downloads') }}">{{ __('Download') }}</a>
                                     </li>
                                     <li id="menu-item-995"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-995">
-                                        <a href="{{ url('/facilities') }}">Facilities</a>
+                                        <a href="{{ url('/facilities') }}">{{ __('Facilities') }}</a>
                                     </li>
                                 </ul>
                             </li>
                             <li id="menu-item-1002"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1002"><a
-                                    href="{{ url('/admission') }}">Admission</a></li>
+                                    href="{{ url('/admission') }}">{{ __('Admission') }}</a></li>
                             <li id="menu-item-1004"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1004">
-                                <a href="#">News &#038; Events</a>
+                                <a href="#">{{ __('News_And_Events') }}</a>
                                 <ul class="sub-menu">
                                     <li id="menu-item-994"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-994">
-                                        <a href="{{ url('/news') }}">News</a>
+                                        <a href="{{ url('/news') }}">{{ __('News') }}</a>
                                     </li>
                                     <li id="menu-item-993"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-993">
-                                        <a href="{{ url('/events') }}">Events</a>
+                                        <a href="{{ url('/events') }}">{{ __('Events') }}</a>
                                     </li>
                                 </ul>
                             </li>
                             <li id="menu-item-999"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-999"><a
-                                    href="{{ url('/gallery') }}">Gallery</a></li>
+                                    href="{{ url('/gallery') }}">{{ __('Gallery') }}</a></li>
                             <li id="menu-item-779"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-779"><a
-                                    href="{{ url('/contact') }}">Contact</a></li>
+                                    href="{{ url('/contact') }}">{{ __('Contact') }}</a></li>
                             <li id="menu-item-781"
                                 class="pll-parent-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-781">
-                                <a><span style="margin-left:0.3em;">  {{ __('Current_Language') }}</span></a>
+                                <a><span style="margin-left:0.3em;"> {{ __('Current_Language') }}</span></a>
                                 <ul class="sub-menu">
                                     <li id="menu-item-781-en"
                                         class="lang-item lang-item-78 lang-item-en current-lang lang-item-first menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-781-en">
-                                        <a href="{{url('language/en')}}" hreflang="en-US" lang="en-US"><span
+                                        <a href="{{ url('language/en') }}" hreflang="en-US" lang="en-US"><span
                                                 style="margin-left:0.3em;">English</span></a>
                                     </li>
                                     <li id="menu-item-781-bn"
                                         class="lang-item lang-item-108 lang-item-bn menu-item menu-item-type-custom menu-item-object-custom menu-item-781-bn">
-                                        <a href="{{url('language/bn')}}" hreflang="bn-BD" lang="bn-BD"><span
+                                        <a href="{{ url('language/bn') }}" hreflang="bn-BD" lang="bn-BD"><span
                                                 style="margin-left:0.3em;">বাংলা</span></a>
                                     </li>
                                 </ul>

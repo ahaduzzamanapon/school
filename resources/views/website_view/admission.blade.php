@@ -3,7 +3,7 @@
     <div class="body-wrap">
         <div class="row">
             <div class="col-lg-9 col-md-6 order-1 p-4">
-                <h1 class="my-4">Admission</h1>
+                <h1 class="my-4">{{ __('Admission') }}</h1>
                 <p>School facilities play a crucial role in creating a conducive and enriching learning environment for
                     students. Here is a list of common facilities that a school may offer:</p>
                 <ol class="ml-3">

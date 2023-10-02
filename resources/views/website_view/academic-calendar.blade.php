@@ -3,7 +3,7 @@
     <div class="body-wrap">
         <div class="row">
             <div class="col-lg-9 col-md-6 order-1 p-4">
-                <h1 class="my-4">Academic Calender</h1>
+                <h1 class="my-4">{{ __('Academic_Calendar') }}</h1>
                 <p><b>[School Name] Academic Calendar for the Year [Year-2023-2024]</b></p>
                 <p><b>Month: August</b></p>
                 <ul class="pl-3">
@@ -62,7 +62,10 @@
                     <li class="py-1">June 3: Graduation Ceremony for Seniors.</li>
                     <li class="py-1">June 10: Last day of school – Awards assembly and year-end celebration.</li>
                 </ul>
-                <p>Please note that this is a sample academic calendar and can be customized to suit the specific needs and traditions of any school. It’s important to include both academic and non-academic events to ensure a well-rounded educational experience for students. Additionally, dates may vary depending on local holidays and regulations.</p>
+                <p>Please note that this is a sample academic calendar and can be customized to suit the specific needs and
+                    traditions of any school. It’s important to include both academic and non-academic events to ensure a
+                    well-rounded educational experience for students. Additionally, dates may vary depending on local
+                    holidays and regulations.</p>
             </div>
             @include('website_view.includes.sidebar')
         </div>

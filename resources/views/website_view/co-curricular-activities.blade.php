@@ -3,18 +3,20 @@
     <div class="body-wrap">
         <div class="row">
             <div class="col-lg-9 col-md-6 order-1 p-4">
-                <h1 class="my-4">Co-Curricular Activities</h1>
+                <h1 class="my-4">{{ __('Co_curricular_Activities') }}</h1>
                 <ol class="ml-3">
                     <li class="my-3">
                         <b>Sports Teams:</b>
                         <ul class="ml-3">
-                            <li>Soccer, basketball, volleyball, baseball, track and field, tennis, and other competitive sports.</li>
+                            <li>Soccer, basketball, volleyball, baseball, track and field, tennis, and other competitive
+                                sports.</li>
                         </ul>
                     </li>
                     <li class="my-3">
                         <b>Clubs:</b>
                         <ul class="ml-3">
-                            <li>Science club, math club, debate club, drama club, chess club, coding club, art club, and more.</li>
+                            <li>Science club, math club, debate club, drama club, chess club, coding club, art club, and
+                                more.</li>
                         </ul>
                     </li>
                     <li class="my-3">
@@ -32,7 +34,8 @@
                     <li class="my-3">
                         <b>Student Government:</b>
                         <ul class="ml-3">
-                            <li>Student council or government that organizes events, represents student interests, and promotes leadership.</li>
+                            <li>Student council or government that organizes events, represents student interests, and
+                                promotes leadership.</li>
                         </ul>
                     </li>
                     <li class="my-3">
@@ -62,7 +65,8 @@
                     <li class="my-3">
                         <b>Debate and Model United Nations (MUN):</b>
                         <ul class="ml-3">
-                            <li>Platforms for students to hone their public speaking, critical thinking, and diplomatic skills.</li>
+                            <li>Platforms for students to hone their public speaking, critical thinking, and diplomatic
+                                skills.</li>
                         </ul>
                     </li>
                     <li class="my-3">
@@ -110,7 +114,8 @@
                     <li class="my-3">
                         <b>Artistic Expression:</b>
                         <ul class="ml-3">
-                            <li>Opportunities for students to explore various art forms, such as painting, sculpture, and ceramics.</li>
+                            <li>Opportunities for students to explore various art forms, such as painting, sculpture, and
+                                ceramics.</li>
                         </ul>
                     </li>
                     <li class="my-3">
@@ -156,7 +161,9 @@
                         </ul>
                     </li>
                 </ol>
-                <p>These co-curricular activities offer a wide range of options for students to discover and develop their talents, interests, and passions while fostering a sense of community and personal growth within the school environment.</p>
+                <p>These co-curricular activities offer a wide range of options for students to discover and develop their
+                    talents, interests, and passions while fostering a sense of community and personal growth within the
+                    school environment.</p>
             </div>
             @include('website_view.includes.sidebar')
         </div>

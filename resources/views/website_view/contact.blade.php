@@ -30,7 +30,7 @@
     <div class="body-wrap p-0">
         <div class="contact-banner">
             <div class="banner px-3">
-                <h1 class="text-white">Get in Touch with Us</h1>
+                <h1 class="text-white">{{ __('Get_in_Touch_with_Us') }}</h1>
             </div>
         </div>
         <div class="container">
@@ -39,14 +39,14 @@
                     <div class="box text-white d-flex mx-auto align-items-center justify-content-center">
                         <i class="fa-solid fa-phone"></i>
                     </div>
-                    <P class="my-2"><b>Phone</b></P>
+                    <P class="my-2"><b>{{ __('Phone') }}</b></P>
                     <a class="link-color" href="tel:01234567890">01234567890</a>
                 </div>
                 <div class="col text-center bg-white p-5 mb-4 ml-2">
                     <div class="box text-white d-flex mx-auto align-items-center justify-content-center">
                         <i class="fa-solid fa-location-pin"></i>
                     </div>
-                    <P class="my-2"><b>Address</b></P>
+                    <P class="my-2"><b>{{ __('Address') }}</b></P>
                     <a class="link-color" href="#map">BTI Premier Plaza (Level # 3), Plot-Cha 90/A- Pragati Sharani,
                         Gulshan, Dhaka</a>
                 </div>

@@ -41,8 +41,8 @@
                                     lead-in to
                                     additional content. This content is a little bit longer.</p>
                                 <a class="link-color text-uppercase fs-3"
-                                    href="{{ url('news/welcome-to-our-college-dhaka') }}"><strong>read more </strong><i
-                                        class="fa-solid fa-angles-right"></i></a>
+                                    href="{{ url('news/welcome-to-our-college-dhaka') }}"><strong>{{ __('Read_More') }}
+                                    </strong><i class="fa-solid fa-angles-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -65,7 +65,7 @@
                                     lead-in to
                                     additional content. This content is a little bit longer.</p>
                                 <a class="link-color text-uppercase fs-3"
-                                    href="{{ url('/news/welcome-to-notre-dame-college-dhaka') }}"><strong>read more
+                                    href="{{ url('/news/welcome-to-notre-dame-college-dhaka') }}"><strong>>{{ __('Read_More') }}
                                     </strong><i class="fa-solid fa-angles-right"></i></a>
                             </div>
                         </div>
