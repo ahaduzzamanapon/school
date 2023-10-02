@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-lg-9 col-md-6 order-1 p-4">
                 <h1 class="my-4">Notice</h1>
-                <ul class="list-style-none">
+                <ul class="list-unstyled">
                     <li><i class="fa-solid fa-hand-point-right"></i><a class="ml-2"
                             href="{{ url('/notice/Production-Storage-Transfer-Transport-Supply-Distribution-andMarketing') }}">
                             Production,Storage,

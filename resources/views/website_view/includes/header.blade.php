@@ -44,12 +44,10 @@
                     <div class="col-lg-2 col-md-2 col-6 order-lg-1 order-md-1 order-1">
                         <div class="logo-header mostion">
                             <a href="#">
-                               <img id="logoImage"
-                                   src="{{url('public/logo.png')}}"
-                                   class="logo" alt="AOGERy" style="display: none; width: 90px; height: 90px;">
-                               <img id="logoTransparentImage"
-                                   src="{{url('public/logo.png')}}"
-                                   class="logo" alt="AOGERy" style="width: 90px; height: 90px;">
+                                <img id="logoImage" src="{{ url('public/logo.png') }}" class="logo" alt="AOGERy"
+                                    style="display: none; width: 90px; height: 90px;">
+                                <img id="logoTransparentImage" src="{{ url('public/logo.png') }}" class="logo"
+                                    alt="AOGERy" style="width: 90px; height: 90px;">
 
                             </a>
                         </div>
@@ -63,8 +61,7 @@
                     <div class="col-lg-3 col-md-3 col-6 order-lg-3 order-md-3 order-2">
                         <div class="logo-header mostion logo-right">
                             <a href="#">
-                                <img  src="{{url('public/mujib.png')}}"
-                                    class="logo" alt="Logo Image">
+                                <img src="{{ url('public/mujib.png') }}" class="logo" alt="Logo Image">
                             </a>
                         </div>
                     </div>
@@ -84,19 +81,26 @@
                                 <ul>
                                     <li>
                                         <i class="fa fa-forward" aria-hidden="true"></i>
-                                        <a href="#">আজ সকালে, আমরা আপনকে একটি আশ্চর্যজনক ঘটনা সম্পর্কে জানাতে আসছি, যা আমাদের প্রিয় বিদ্যালয়ে ঘটেছে। আমরা গর্বিতভাবে ঘোষণা করতে চাই যে, এই সময়ের বিদ্যালয় নিউজের জন্য আমাদের স্কুল একটি নতুন মুখোমুখি আবদ্ধ হয়েছে!.</a>
+                                        <a href="#">আজ সকালে, আমরা আপনকে একটি আশ্চর্যজনক ঘটনা সম্পর্কে জানাতে
+                                            আসছি, যা আমাদের প্রিয় বিদ্যালয়ে ঘটেছে। আমরা গর্বিতভাবে ঘোষণা করতে চাই যে,
+                                            এই সময়ের বিদ্যালয় নিউজের জন্য আমাদের স্কুল একটি নতুন মুখোমুখি আবদ্ধ
+                                            হয়েছে!.</a>
                                     </li>
                                     <li>
                                         <i class="fa fa-forward" aria-hidden="true"></i>
                                         <a href="#">
-                                        এই সপ্তাহের বই মেলায়, আমাদের বিদ্যালয়ের পক্ষ থেকে একটি অদ্বিতীয় ঘটনা ঘটেছে। যদি তা না হয়, তা নির্ধারণ করতে কিছুটা সময় লাগতে পারে!
-                                     </a>
+                                            এই সপ্তাহের বই মেলায়, আমাদের বিদ্যালয়ের পক্ষ থেকে একটি অদ্বিতীয় ঘটনা
+                                            ঘটেছে। যদি তা না হয়, তা নির্ধারণ করতে কিছুটা সময় লাগতে পারে!
+                                        </a>
                                     </li>
                                     <li>
                                         <i class="fa fa-forward" aria-hidden="true"></i>
                                         <a href="#">
-                                        স্কুলের পিকনিক আয়োজন করতে এই বছরের প্রথম দিন, একটি বাসে সমস্ত শিক্ষার্থী এবং শিক্ষকের জন্য একটি অদ্বিতীয় গন্তব্য নির্ধারণ করা হয়েছিল। শুরুতে এটি স্বাভাবিক একটি বিস্ময়কর দিনের মধ্যে সম্পন্ন হয়েছিল। তবে, পিকনিকের শেষে, ছাত্র-ছাত্রীদের পূর্বাবস্থায় একটি নতুন অস্ত্রোপচার ঘটে!
-                                    </a>
+                                            স্কুলের পিকনিক আয়োজন করতে এই বছরের প্রথম দিন, একটি বাসে সমস্ত শিক্ষার্থী
+                                            এবং শিক্ষকের জন্য একটি অদ্বিতীয় গন্তব্য নির্ধারণ করা হয়েছিল। শুরুতে এটি
+                                            স্বাভাবিক একটি বিস্ময়কর দিনের মধ্যে সম্পন্ন হয়েছিল। তবে, পিকনিকের শেষে,
+                                            ছাত্র-ছাত্রীদের পূর্বাবস্থায় একটি নতুন অস্ত্রোপচার ঘটে!
+                                        </a>
                                     </li>
                                 </ul>
                             </marquee>
@@ -126,38 +130,38 @@
                                 <ul class="sub-menu">
                                     <li id="menu-item-1045"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1045">
-                                        <a href="{{url('/about-us')}}">About Us</a>
+                                        <a href="{{ url('/about-us') }}">About Us</a>
                                     </li>
                                     <li id="menu-item-953"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-953">
-                                        <a href="{{url('/message-form-chairman')}}">Message form
+                                        <a href="{{ url('/message-form-chairman') }}">Message form
                                             Chairman</a>
                                     </li>
                                     <li id="menu-item-952"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-952">
-                                        <a href="{{url('/message-form-principal')}}">Message form
+                                        <a href="{{ url('/message-form-principal') }}">Message form
                                             Principal</a>
                                     </li>
                                     <li id="menu-item-951"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-951">
-                                        <a href="{{url('/governing-body')}}">Governing body</a>
+                                        <a href="{{ url('/governing-body') }}">Governing body</a>
                                     </li>
                                     <li id="menu-item-950"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-950">
-                                        <a href="{{url('/approval-letter')}}">Approval letter</a>
+                                        <a href="{{ url('/approval-letter') }}">Approval letter</a>
                                     </li>
                                     <li id="menu-item-949"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-949">
-                                        <a href="{{url('/history')}}">History</a>
+                                        <a href="{{ url('/history') }}">History</a>
                                     </li>
                                     <li id="menu-item-948"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-948">
-                                        <a href="{{url('/vision-and-objectives')}}">Vision and
+                                        <a href="{{ url('/vision-and-objectives') }}">Vision and
                                             Objectives</a>
                                     </li>
                                     <li id="menu-item-969"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-969">
-                                        <a href="{{url('/activities')}}">Activities</a>
+                                        <a href="{{ url('/activities') }}">Activities</a>
                                     </li>
                                 </ul>
                             </li>
@@ -167,23 +171,23 @@
                                 <ul class="sub-menu">
                                     <li id="menu-item-966"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-966">
-                                        <a href="{{url('/academic-calendar')}}">Academic Calendar</a>
+                                        <a href="{{ url('/academic-calendar') }}">Academic Calendar</a>
                                     </li>
                                     <li id="menu-item-965"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-965">
-                                        <a href="{{url('/syllabus')}}">Syllabus</a>
+                                        <a href="{{ url('/syllabus') }}">Syllabus</a>
                                     </li>
                                     <li id="menu-item-964"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-964">
-                                        <a href="{{url('/class-routine')}}">Class Routine</a>
+                                        <a href="{{ url('/class-routine') }}">Class Routine</a>
                                     </li>
                                     <li id="menu-item-972"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-972">
-                                        <a href="{{url('/lesson-plan')}}">Lesson Plan</a>
+                                        <a href="{{ url('/lesson-plan') }}">Lesson Plan</a>
                                     </li>
                                     <li id="menu-item-963"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-963">
-                                        <a href="{{url('/co-curricular-activities')}}">Co-curricular
+                                        <a href="{{ url('/co-curricular-activities') }}">Co-curricular
                                             Activities</a>
                                     </li>
                                 </ul>
@@ -194,58 +198,56 @@
                                 <ul class="sub-menu">
                                     <li id="menu-item-1038"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1038">
-                                        <a href="#">Notice</a>
+                                        <a href="{{ url('/notice') }}">Notice</a>
                                     </li>
                                     <li id="menu-item-1151"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1151">
-                                        <a href="#">Result</a>
+                                        <a href="{{ url('/results') }}">Result</a>
                                     </li>
                                     <li id="menu-item-991"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-991">
-                                        <a href="#">Teacher Info</a>
+                                        <a href="{{ url('/teachers-info') }}">Teacher Info</a>
                                     </li>
                                     <li id="menu-item-990"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-990">
-                                        <a href="#">Student Info</a>
+                                        <a href="{{ url('/students-info') }}">Student Info</a>
                                     </li>
                                     <li id="menu-item-992"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-992">
-                                        <a href="#">List of Holidays</a>
+                                        <a href="{{ url('/list-of-holidays') }}">List of Holidays</a>
                                     </li>
                                     <li id="menu-item-995"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-995">
-                                        <a href="#">Facilities</a>
+                                        <a href="{{ url('/facilities') }}">Facilities</a>
                                     </li>
-
                                 </ul>
                             </li>
                             <li id="menu-item-1002"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1002"><a
-                                    href="#">Admission</a></li>
+                                    href="{{ url('/admission') }}">Admission</a></li>
                             <li id="menu-item-1004"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1004">
                                 <a href="#">News &#038; Events</a>
                                 <ul class="sub-menu">
                                     <li id="menu-item-994"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-994">
-                                        <a href="#">News</a>
+                                        <a href="{{ url('/news') }}">News</a>
                                     </li>
                                     <li id="menu-item-993"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-993">
-                                        <a href="#">Events</a>
+                                        <a href="{{ url('/events') }}">Events</a>
                                     </li>
                                 </ul>
                             </li>
                             <li id="menu-item-999"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-999"><a
-                                    href="#">Gallery</a></li>
+                                    href="{{ url('/gallery') }}">Gallery</a></li>
                             <li id="menu-item-779"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-779"><a
-                                    href="#">Contact</a></li>
+                                    href="{{ url('/contact') }}">Contact</a></li>
                             <li id="menu-item-781"
                                 class="pll-parent-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-781">
-                                <a href="#"><span
-                                        style="margin-left:0.3em;">English</span></a>
+                                <a href="#"><span style="margin-left:0.3em;">English</span></a>
                                 <ul class="sub-menu">
                                     <li id="menu-item-781-en"
                                         class="lang-item lang-item-78 lang-item-en current-lang lang-item-first menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-781-en">
@@ -254,8 +256,8 @@
                                     </li>
                                     <li id="menu-item-781-bn"
                                         class="lang-item lang-item-108 lang-item-bn menu-item menu-item-type-custom menu-item-object-custom menu-item-781-bn">
-                                        <a href="#"
-                                            hreflang="bn-BD" lang="bn-BD"><span style="margin-left:0.3em;">বাংলা</span></a>
+                                        <a href="#" hreflang="bn-BD" lang="bn-BD"><span
+                                                style="margin-left:0.3em;">বাংলা</span></a>
                                     </li>
                                 </ul>
                             </li>
